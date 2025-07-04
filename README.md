@@ -60,7 +60,7 @@ ExcelInsightAI/
 ## ⚠️ 참고 사항
 
 - **JSONCONVERT.BAS** 파일은 본 프로젝트의 직접 제작 파일이 아니며, 외부 오픈소스인 [VBA-tools/VBA-JSON](https://github.com/VBA-tools/VBA-JSON)에서 제공된 파일임을 명확히 밝힙니다. 해당 프로젝트는 MIT 라이선스로 배포되고 있습니다.
-- 본 프로젝트의 핵심 코드는 모두 직접 작성하였습니다.
+- 본 프로젝트의 핵심 코드는 생성형 AI로 작성하였습니다.
 
 ---
 
