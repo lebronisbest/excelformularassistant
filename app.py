@@ -43,10 +43,6 @@ async def upload_chat(file: UploadFile, question: str = Form(...)):
         print("[INFO] LangChain 문서(context) 변환 결과:")
         print(context)
 
-        # 벡터 DB 준비 (필요시 유지, 아니면 삭제 가능)
-        docs = [Document(page_content=context)]
-        db = FAISS.from_documents(docs, OllamaEmbeddings(model="nomic-embed-text"))
-
         # 한 번만 LLM 호출 (answer 프롬프트)
         answer_prompt = CorePromptTemplate(
             template=load_prompt(PROMPT_PATH),
